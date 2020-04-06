@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.7.3'
+        classpath 'com.android.tools.build:gradle:1.0.1'
     }
 }
 apply plugin: 'android'
@@ -33,10 +33,10 @@ dependencies {
 
 android {
     compileSdkVersion 18
-    buildToolsVersion "17"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
-        packageName 'org.ale.openwatch'
+        applicationId 'org.ale.openwatch'
     }
 
     packagingOptions {
